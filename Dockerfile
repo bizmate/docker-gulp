@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:argon
 
 MAINTAINER Bizmate <diego_gullo@bizmate.biz>
 
