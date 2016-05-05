@@ -1,2 +1,2 @@
 # docker-gulp
-Docker nodejs with gulp
+Docker nodejs with gulp & jspm@beta
