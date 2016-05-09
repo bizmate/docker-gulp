@@ -2,4 +2,7 @@ FROM node:argon
 
 MAINTAINER Bizmate <diego_gullo@bizmate.biz>
 
-RUN npm install -g gulp-cli && npm install -g jspm@beta
+WORKDIR /
+COPY package.json /
+RUN npm install -g gulp-cli && npm install -g jspm@beta && \
+    npm install
